@@ -1,17 +1,19 @@
 {
-	"name": "eslint-config-tovo",
+	"name": "eslint-config-react-plugin",
 	"version": "1.0.0",
-	"description": "This project contains all the ESLint rules that we are going to extend from different TOVO Project",
+	"description": "This project contains all the ESLint rules that you can extend from different Projects",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sdc224/eslint-config-tovo.git"
+		"url": "git+https://github.com/sdc224/eslint-config-react-plugin.git"
 	},
 	"keywords": [
 		"Eslint",
 		"Prettier",
-		"TOVO",
-		"React"
+		"React",
+		"Redux",
+		"extends",
+		"plugins"
 	],
 	"author": "sdc224",
 	"contributors": [
@@ -23,9 +25,9 @@
 	],
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/sdc224/eslint-config-tovo/issues"
+		"url": "https://github.com/sdc224/eslint-config-react-plugin/issues"
 	},
-	"homepage": "https://github.com/sdc224/eslint-config-tovo#readme",
+	"homepage": "https://github.com/sdc224/eslint-config-react-plugin#readme",
 	"scripts": {
 		"test": "jest"
 	},
@@ -63,7 +65,8 @@
 		"eslint-plugin-testcafe": "^0.2.1",
 		"jest": "^25.1.0",
 		"prettier": "^1.19.1",
-		"react": "^16.12.0"
+		"react": "^16.12.0",
+		"redux-saga": "^1.1.3"
 	},
 	"eslintConfig": {
 		"extends": "./index.js"
