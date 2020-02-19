@@ -5,13 +5,15 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sdc224/eslint-config-tovo.git"
+		"url": "git+https://github.com/sdc224/eslint-config-react-redux.git"
 	},
 	"keywords": [
 		"Eslint",
 		"Prettier",
-		"TOVO",
-		"React"
+		"React",
+		"Redux",
+		"extends",
+		"plugins"
 	],
 	"author": "sdc224",
 	"contributors": [
@@ -23,9 +25,9 @@
 	],
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/sdc224/eslint-config-tovo/issues"
+		"url": "https://github.com/sdc224/eslint-config-react-redux/issues"
 	},
-	"homepage": "https://github.com/sdc224/eslint-config-tovo#readme",
+	"homepage": "https://github.com/sdc224/eslint-config-react-redux#readme",
 	"scripts": {
 		"test": "jest"
 	},
