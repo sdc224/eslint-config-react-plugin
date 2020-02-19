@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hello should report semicolon errors 1`] = `
+Array [
+  Array [
+    Object {
+      "column": 1,
+      "endColumn": 12,
+      "endLine": 2,
+      "filePath": "",
+      "line": 2,
+      "message": "Unexpected console statement.",
+      "messageId": "unexpected",
+      "nodeType": "MemberExpression",
+      "ruleId": "no-console",
+      "severity": 1,
+    },
+    Object {
+      "column": 5,
+      "endColumn": 6,
+      "endLine": 3,
+      "filePath": "",
+      "line": 3,
+      "message": "'b' is assigned a value but never used.",
+      "nodeType": "Identifier",
+      "ruleId": "no-unused-vars",
+      "severity": 2,
+    },
+    Object {
+      "column": 5,
+      "endColumn": 6,
+      "endLine": 3,
+      "filePath": "",
+      "fix": Object {
+        "range": Array [
+          39,
+          42,
+        ],
+        "text": "const",
+      },
+      "line": 3,
+      "message": "'b' is never reassigned. Use 'const' instead.",
+      "messageId": "useConst",
+      "nodeType": "Identifier",
+      "ruleId": "prefer-const",
+      "severity": 2,
+    },
+    Object {
+      "column": 1,
+      "endColumn": 2,
+      "endLine": 4,
+      "filePath": "",
+      "line": 4,
+      "message": "'a' is constant.",
+      "messageId": "const",
+      "nodeType": "Identifier",
+      "ruleId": "no-const-assign",
+      "severity": 2,
+    },
+    Object {
+      "column": 1,
+      "endColumn": 4,
+      "endLine": 4,
+      "filePath": "",
+      "line": 4,
+      "message": "Unary operator '++' used.",
+      "nodeType": "UpdateExpression",
+      "ruleId": "no-plusplus",
+      "severity": 2,
+    },
+  ],
+]
+`;
