@@ -30,6 +30,10 @@ alternatively, if you are using **yarn**, then
 yarn add --dev eslint-config-react-plugin
 ```
 
+## Contributing
+
+Please send me your suggestions so that this config can be used for most of the react projects without any hassle.
+
 #### Future
 
 -   Will try to add support for Typescript

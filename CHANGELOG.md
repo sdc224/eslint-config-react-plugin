@@ -1,3 +1,7 @@
+# Version 1.0.1
+
+-   Changed Readme
+
 # Version 1.0.0
 
 -   Added rules inside index.js

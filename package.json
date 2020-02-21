@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-react-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This project contains all the ESLint rules that you can extend from different Projects",
 	"main": "index.js",
 	"repository": {
