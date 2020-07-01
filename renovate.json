@@ -1,3 +1,5 @@
 {
-	"extends": ["bliss"]
+	"extends": [
+		"config:base"
+	]
 }
